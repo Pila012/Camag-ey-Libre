@@ -43,6 +43,23 @@ nav a:hover {
   padding: 40px 20px;
 }
 
+.btn-entradas {
+  display: inline-block;
+  background-color: #0077cc;
+  color: white;
+  padding: 12px 24px;
+  margin: 20px auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-entradas:hover {
+  background-color: #005fa3;
+}
+
 main {
   max-width: 800px;
   margin: 40px auto;
@@ -78,25 +95,4 @@ footer {
 
 .social-icons a:hover {
   color: #ffcc00;
-}
-
-.wp-button {
-  display: inline-block;
-  background-color: #0077cc;
-  color: white;
-  padding: 12px 24px;
-  margin: 20px auto;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.wp-button:hover {
-  background-color: #005fa3;
-}
-
-.wordpress-link {
-  text-align: center;
 }
